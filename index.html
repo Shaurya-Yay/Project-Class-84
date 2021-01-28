@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body{
-	background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
-    background-position: center;
-    background-size: cover;
-}
-#myCanvas
-{
-    margin-top: 30px;
-	border-width:10px;
-	background-color: white; 
-	border-style:ridge;
-}
+	<style>
+		body {
+			background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
+			background-position: center;
+			background-size: cover;
+		}
 
-h1,h4
-{
-	color: white !important;
-}
-</style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		#myCanvas {
+			margin-top: 30px;
+			border-width: 10px;
+			background-color: white;
+			border-style: ridge;
+		}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		h1,
+		h4 {
+			color: white !important;
+		}
+	</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<title>Car Racing</title>
+
 </head>
+
 <body onload="add();">
 
-<center>
-<h1>Car Racing Game</h1>
-<h1>Game Status : <span id="game_status"></span></h1>
-  <p>To move white car up press the up arrow key , to move down down arrow key, to move right right arrow key and to move left left arrow key</p>  <p>To move green car up press the W key , to move down S key, to move right D key and to move A a key</p>
-	<canvas id="myCanvas" width="800" height="600">
-	</canvas>
-<h4>
-	<b class="text-danger">NOTE : </b> IF THE CARES ARE NOT VISIABLE PRESS ANY ARROW KEY
-</h4>
+	<center>
+		<h1>Car Racing</h1>
+		<h1>Game Status : <span id="game_status"></span></h1>
+		<canvas id="myCanvas" width="800" height="600">
+		</canvas>
+		<h4>
+			<b class="text-danger">NOTE : </b> IF THE CARS ARE NOT VISIABLE PRESS ANY ARROW KEY
+		</h4>
 
-</center>
+	</center>
+	<script src="main.js"></script>
 </body>
+
 </html>
